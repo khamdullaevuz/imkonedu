@@ -15,8 +15,8 @@ if(mysqli_num_rows($result) == 1){
 
 	header('location: ./');
 }else{
-	header('location: login');
+	header('location: login.php');
 }
 }else{
-	header('location: login');
+	header('location: login.php');
 }
