@@ -12,10 +12,10 @@ require_once __DIR__ . '/controller/TelegramBot.php';
 
 use app\TelegramBot;
 
-$bot = new TelegramBot("1546384932:AAHewL7cDKAdOQVh51RIn4HBTXqnQXn3qDM");
-$mysqli = new mysqli("localhost", "u1371402_default", "5ByzE53AdIagM3K6xX2o", "u1371402_Telegrambot");
+$bot = new TelegramBot("API_KEY");
+$mysqli = new mysqli("localhost", "user", "password", "dbname");
 $mysqli->set_charset("utf8mb4");
-define('CLICK_KEY', "398062629:TEST:999999999_F91D8F69C042267444B74CC0B3C747757EB0E065");
+define('CLICK_KEY', "CLICK_KEY");
 $admin = 717404897;
 
 $hostmail = "register@imkonedu.uz";
